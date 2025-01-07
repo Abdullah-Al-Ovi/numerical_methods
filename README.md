@@ -79,9 +79,45 @@ Follow these steps to clone and run the project:
    - Choose a numerical method to compute.
 3. View the results in the terminal or as a graphical table.
 
-## Example
+## Examples
 
-### Input:
+### Example 1: Forward Difference
+
+#### Input:
+
+```
+Choose an option (1-4): 1
+Enter the number of data points: 4
+Enter the x-values:
+1
+2
+3
+4
+Enter the y-values:
+2
+4
+7
+11
+```
+
+#### Output:
+
+A graphical table pops up displaying the forward differences:
+
+```
++-----+-----+-------------------+
+|  x  |  y  | Forward Difference |
++-----+-----+-------------------+
+| 1.0 | 2.0 | 2.0               |
+| 2.0 | 4.0 | 3.0               |
+| 3.0 | 7.0 | 4.0               |
+| 4.0 | 11.0| Not available               |
++-----+-----+-------------------+
+```
+
+### Example 2: Missing Value Interpolation
+
+#### Input:
 
 ```
 Choose an option (1-4): 4
@@ -98,9 +134,9 @@ None
 11
 ```
 
-### Output:
+#### Output:
 
-A graphical table pops up with the interpolated value highlighted.
+A graphical table pops up with the interpolated value highlighted:
 
 ```
 +-----+-----+
@@ -115,13 +151,6 @@ A graphical table pops up with the interpolated value highlighted.
 
 ## Contributing
 
-Contributions are welcome! Feel free to fork the repository, make improvements, and create a pull request.
+Contributions are welcome! Feel free to fork the repository, make improvements and make a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
----
-
-Happy coding! 🚀
 
