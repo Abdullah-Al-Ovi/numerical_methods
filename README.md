@@ -43,13 +43,13 @@ Follow these steps to clone and run the project:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/numerical-methods-assignment.git
+   git clone https://github.com/Abdullah-Al-Ovi/numerical_methods.git
    ```
 
 2. **Navigate to the Project Directory**:
 
    ```bash
-   cd numerical-methods-assignment
+   cd numerical_methods
    ```
 
 3. **Install Dependencies**:
@@ -67,7 +67,7 @@ Follow these steps to clone and run the project:
 4. **Run the Program**:
 
    ```bash
-   python numerical_methods.py
+   python numerical_assignment.py
    ```
 
 ## Usage
